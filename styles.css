@@ -11,9 +11,10 @@ body{
 .container{
     background-color: #1f2937;
     color:white;
+    height:400px;
 }
 
-/* header */
+/* header & navigationbar*/
 .navbar{
     display:flex;
     flex-direction:row;
@@ -42,3 +43,33 @@ font-size: 30px; ;
     color:white;
 }
 
+/*signup and about section*/
+.information{
+    display:flex;
+    
+}
+
+.info-left{
+    padding-left:150px;
+    width:500px;
+    margin:50px;
+}
+
+.about{
+    font-size:40px;
+}
+
+.signup{
+border-radius:10px;
+width:100px;
+height:30px;
+background-color: #3882F6;
+color:white;
+}
+
+.sadcat{
+    width:300px;
+    align-items: center;
+    padding-left:400px;
+    
+}
